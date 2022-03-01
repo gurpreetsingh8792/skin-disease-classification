@@ -82,6 +82,12 @@ def contact():
 # @app.route('/about1/')
 # def about():
 #     return "this is about page"
+
+
+
+@app.route('/login/')
+def login():
+    return render_template("login.html")
     
 
 
